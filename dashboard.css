@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 1.5rem;
+}
+
+/* TOPO */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+/* PERFIL CÍRCULO */
+.icon-wrapper.profile {
+  width: 40px;
+  height: 40px;
+  background-color: #2B2B2B;
+  border: 2px solid #F2B705;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2B705;
+  font-size: 1rem;
+}
+
+/* SINO */
+.icon-wrapper.notify {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #2B2B2B;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E0E0E0;
+  font-size: 1.1rem;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* SALDO */
+.saldo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.saldo .label {
+  color: #BDBDBD;
+  font-size: 0.9rem;
+}
+
+.saldo .valor {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F2C94C;
+}
+
+/* PAGAMENTOS */
+.pagamentos h2 {
+  font-size: 1.1rem;
+  color: #F2C94C;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #2B2B2B;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card .nome {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.card .info {
+  font-size: 0.9rem;
+  color: #BDBDBD;
+}
+
+.card .valor {
+  font-size: 1rem;
+  color: #F2C94C;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* BOTÃO */
+.novo-pagamento {
+  width: 100%;
+  padding: 1rem;
+  background-color: #F2B705;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+/* MENU INFERIOR */
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  border-top: 1px solid #333;
+}
+
+.menu-item {
+  font-size: 1.5rem;
+  color: #F2B705;
+  text-decoration: none;
+}

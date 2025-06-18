@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- TOPO -->
+    <header class="topbar">
+      <!-- Perfil -->
+      <div class="icon-wrapper profile">
+        <i class="fa-solid fa-user"></i>
+      </div>
+
+      <!-- Logo -->
+      <img src="LOGO.png" alt="Logo" class="logo" />
+
+      <!-- Notificações -->
+      <div class="icon-wrapper notify">
+        <i class="fa-solid fa-bell"></i>
+        <span class="notification-dot"></span>
+      </div>
+    </header>
+
+    <!-- SALDO -->
+    <section class="saldo">
+      <p class="label">Saldo Disponível</p>
+      <p class="valor">R$ 1.000,00</p>
+    </section>
+
+    <!-- PAGAMENTOS -->
+    <section class="pagamentos">
+      <h2>Pagtos. Agendados</h2>
+
+      <div class="card">
+        <p class="nome">Netflix</p>
+        <p class="info">Próx pagto: 12/04</p>
+        <p class="valor">R$ 10,00</p>
+      </div>
+
+      <div class="card">
+        <p class="nome">Spotify</p>
+        <p class="info">Próx pagto: 14/04</p>
+        <p class="valor">R$ 10,00</p>
+      </div>
+
+      <div class="card">
+        <p class="nome">Paypal</p>
+        <p class="info">Próx pagto: 14/04</p>
+        <p class="valor">R$ 10,00</p>
+      </div>
+    </section>
+
+    <!-- BOTÃO -->
+    <button class="novo-pagamento">+ Novo Pagamento</button>
+  </div>
+
+  <!-- MENU INFERIOR -->
+  <footer class="bottom-menu">
+    <a href="#" class="menu-item"><i class="fa-solid fa-house"></i></a>
+  </footer>
+</body>
+</html>
